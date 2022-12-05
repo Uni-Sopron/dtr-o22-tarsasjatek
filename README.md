@@ -1,2 +1,2 @@
 # DTR-Jurasits-kos
-DTR Jurasits Ákos
+DTR Jurasits Akos
