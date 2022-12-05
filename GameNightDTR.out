@@ -1,0 +1,183 @@
+Problem:    GameNightDTR
+Rows:       24
+Columns:    56 (56 integer, 56 binary)
+Non-zeros:  574
+Status:     INTEGER OPTIMAL
+Objective:  satisfaction = 2872 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 dayLimit[Hetfo]
+                                 2.5                         2.5 
+     2 dayLimit[Kedd]
+                                   3                           3 
+     3 dayLimit[Szerda]
+                                 2.8                         2.8 
+     4 dayLimit[Csutortok]
+                                 4.3                         4.5 
+     5 dayLimit[Pentek]
+                                   6                           6 
+     6 dayLimit[Szombat]
+                                 9.3                          10 
+     7 dayLimit[Vasarnap]
+                                   7                           7 
+     8 gameLimits[Risk]
+                                   3                           3 
+     9 gameLimits[Monopoly]
+                                   3                           3 
+    10 gameLimits[Catan]
+                                   3                           3 
+    11 gameLimits[Brittania]
+                                   2                           3 
+    12 gameLimits[Magic]
+                                   1                           3 
+    13 gameLimits[Gloomhaven]
+                                   3                           3 
+    14 gameLimits[Root]
+                                   3                           3 
+    15 gameLimits[Bang]
+                                   3                           3 
+    16 minimumSatisfaction[Akos]
+                                  90            80               
+    17 minimumSatisfaction[Balint]
+                                 490            80               
+    18 minimumSatisfaction[Jozsef]
+                                 456            80               
+    19 minimumSatisfaction[Katalin]
+                                 347            80               
+    20 minimumSatisfaction[Istvan]
+                                 389            80               
+    21 minimumSatisfaction[Lajos]
+                                 347            80               
+    22 minimumSatisfaction[Adam]
+                                 456            80               
+    23 minimumSatisfaction[Maria]
+                                 297            80               
+    24 satisfaction             2872                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 chosenGames[Hetfo,Risk]
+                    *              0             0             1 
+     2 chosenGames[Hetfo,Monopoly]
+                    *              0             0             1 
+     3 chosenGames[Hetfo,Catan]
+                    *              1             0             1 
+     4 chosenGames[Hetfo,Brittania]
+                    *              0             0             1 
+     5 chosenGames[Hetfo,Magic]
+                    *              0             0             1 
+     6 chosenGames[Hetfo,Gloomhaven]
+                    *              0             0             1 
+     7 chosenGames[Hetfo,Root]
+                    *              1             0             1 
+     8 chosenGames[Hetfo,Bang]
+                    *              1             0             1 
+     9 chosenGames[Kedd,Risk]
+                    *              1             0             1 
+    10 chosenGames[Kedd,Monopoly]
+                    *              0             0             1 
+    11 chosenGames[Kedd,Catan]
+                    *              1             0             1 
+    12 chosenGames[Kedd,Brittania]
+                    *              0             0             1 
+    13 chosenGames[Kedd,Magic]
+                    *              0             0             1 
+    14 chosenGames[Kedd,Gloomhaven]
+                    *              0             0             1 
+    15 chosenGames[Kedd,Root]
+                    *              1             0             1 
+    16 chosenGames[Kedd,Bang]
+                    *              0             0             1 
+    17 chosenGames[Szerda,Risk]
+                    *              0             0             1 
+    18 chosenGames[Szerda,Monopoly]
+                    *              1             0             1 
+    19 chosenGames[Szerda,Catan]
+                    *              1             0             1 
+    20 chosenGames[Szerda,Brittania]
+                    *              0             0             1 
+    21 chosenGames[Szerda,Magic]
+                    *              0             0             1 
+    22 chosenGames[Szerda,Gloomhaven]
+                    *              0             0             1 
+    23 chosenGames[Szerda,Root]
+                    *              1             0             1 
+    24 chosenGames[Szerda,Bang]
+                    *              0             0             1 
+    25 chosenGames[Csutortok,Risk]
+                    *              0             0             1 
+    26 chosenGames[Csutortok,Monopoly]
+                    *              1             0             1 
+    27 chosenGames[Csutortok,Catan]
+                    *              0             0             1 
+    28 chosenGames[Csutortok,Brittania]
+                    *              0             0             1 
+    29 chosenGames[Csutortok,Magic]
+                    *              1             0             1 
+    30 chosenGames[Csutortok,Gloomhaven]
+                    *              0             0             1 
+    31 chosenGames[Csutortok,Root]
+                    *              0             0             1 
+    32 chosenGames[Csutortok,Bang]
+                    *              1             0             1 
+    33 chosenGames[Pentek,Risk]
+                    *              1             0             1 
+    34 chosenGames[Pentek,Monopoly]
+                    *              0             0             1 
+    35 chosenGames[Pentek,Catan]
+                    *              0             0             1 
+    36 chosenGames[Pentek,Brittania]
+                    *              0             0             1 
+    37 chosenGames[Pentek,Magic]
+                    *              0             0             1 
+    38 chosenGames[Pentek,Gloomhaven]
+                    *              1             0             1 
+    39 chosenGames[Pentek,Root]
+                    *              0             0             1 
+    40 chosenGames[Pentek,Bang]
+                    *              0             0             1 
+    41 chosenGames[Szombat,Risk]
+                    *              1             0             1 
+    42 chosenGames[Szombat,Monopoly]
+                    *              1             0             1 
+    43 chosenGames[Szombat,Catan]
+                    *              0             0             1 
+    44 chosenGames[Szombat,Brittania]
+                    *              1             0             1 
+    45 chosenGames[Szombat,Magic]
+                    *              0             0             1 
+    46 chosenGames[Szombat,Gloomhaven]
+                    *              1             0             1 
+    47 chosenGames[Szombat,Root]
+                    *              0             0             1 
+    48 chosenGames[Szombat,Bang]
+                    *              1             0             1 
+    49 chosenGames[Vasarnap,Risk]
+                    *              0             0             1 
+    50 chosenGames[Vasarnap,Monopoly]
+                    *              0             0             1 
+    51 chosenGames[Vasarnap,Catan]
+                    *              0             0             1 
+    52 chosenGames[Vasarnap,Brittania]
+                    *              1             0             1 
+    53 chosenGames[Vasarnap,Magic]
+                    *              0             0             1 
+    54 chosenGames[Vasarnap,Gloomhaven]
+                    *              1             0             1 
+    55 chosenGames[Vasarnap,Root]
+                    *              0             0             1 
+    56 chosenGames[Vasarnap,Bang]
+                    *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
