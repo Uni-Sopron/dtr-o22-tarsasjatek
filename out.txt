@@ -1,0 +1,22 @@
+Hetfo - Catan
+Hetfo - Root
+Hetfo - Bang
+Kedd - Risk
+Kedd - Catan
+Kedd - Root
+Szerda - Monopoly
+Szerda - Catan
+Szerda - Root
+Csutortok - Monopoly
+Csutortok - Magic
+Csutortok - Bang
+Pentek - Risk
+Pentek - Gloomhaven
+Szombat - Risk
+Szombat - Monopoly
+Szombat - Brittania
+Szombat - Gloomhaven
+Szombat - Bang
+Vasarnap - Brittania
+Vasarnap - Gloomhaven
+A heti boldogság szint: 2872
